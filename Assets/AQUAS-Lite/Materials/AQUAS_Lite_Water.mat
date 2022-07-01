@@ -8,7 +8,7 @@ Material:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: AQUAS_Lite_Water
-  m_Shader: {fileID: 4800000, guid: d54a881b830cae544a72985daaece999, type: 3}
+  m_Shader: {fileID: 4800000, guid: 6f959affa0c78874c86f835cf797ccef, type: 3}
   m_ShaderKeywords: _ENABLEPROBERELFECTIONS_ON _ENABLEREALTIMEREFLECTIONS_ON _ENABLEREFLECTIONS_ON
   m_LightmapFlags: 5
   m_EnableInstancingVariants: 0
