@@ -134,6 +134,7 @@ GameObject:
   - component: {fileID: 286102015}
   - component: {fileID: 286102014}
   - component: {fileID: 286102013}
+  - component: {fileID: 286102016}
   m_Layer: 0
   m_Name: Agetenai Ebi
   m_TagString: Untagged
@@ -220,6 +221,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &286102016
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 286102012}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd441e519de0e734ea02f931cd58848e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 0}
+  sound: {fileID: 0}
 --- !u!1 &808837740
 GameObject:
   m_ObjectHideFlags: 0
@@ -231,6 +246,7 @@ GameObject:
   - component: {fileID: 808837743}
   - component: {fileID: 808837742}
   - component: {fileID: 808837741}
+  - component: {fileID: 808837744}
   m_Layer: 0
   m_Name: Star Candy Uni
   m_TagString: Untagged
@@ -317,6 +333,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 3
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &808837744
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 808837740}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd441e519de0e734ea02f931cd58848e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 0}
+  sound: {fileID: 0}
 --- !u!1 &1016203254
 GameObject:
   m_ObjectHideFlags: 0
@@ -328,6 +358,7 @@ GameObject:
   - component: {fileID: 1016203257}
   - component: {fileID: 1016203256}
   - component: {fileID: 1016203255}
+  - component: {fileID: 1016203258}
   m_Layer: 0
   m_Name: Koge Ebi
   m_TagString: Untagged
@@ -414,6 +445,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1016203258
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1016203254}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd441e519de0e734ea02f931cd58848e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 0}
+  sound: {fileID: 0}
 --- !u!1 &1295379661
 GameObject:
   m_ObjectHideFlags: 0
@@ -518,6 +563,7 @@ GameObject:
   - component: {fileID: 1635592293}
   - component: {fileID: 1635592292}
   - component: {fileID: 1635592291}
+  - component: {fileID: 1635592294}
   m_Layer: 0
   m_Name: Nomal Ebi
   m_TagString: Untagged
@@ -604,6 +650,20 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1635592294
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1635592290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: cd441e519de0e734ea02f931cd58848e, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  effectPrefab: {fileID: 0}
+  sound: {fileID: 0}
 --- !u!1 &1976037691
 GameObject:
   m_ObjectHideFlags: 0
