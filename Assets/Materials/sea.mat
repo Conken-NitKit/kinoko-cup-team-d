@@ -20,7 +20,7 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: New Material
+  m_Name: sea
   m_Shader: {fileID: 4800000, guid: f0206a1d975a86249a0c93e652fe74d2, type: 3}
   m_ShaderKeywords: 
   m_LightmapFlags: 4
