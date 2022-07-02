@@ -2,10 +2,20 @@ using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
 
-// 自動で消える
-public class ObjectMove : MonoBehaviour {
-    public float timer = 15.0f;
-    void Start () {
-        Destroy (gameObject, timer);
+public class ObjectMove : MonoBehaviour
+{
+ public float deleteTime = 3.0f;
+
+    // Use this for initialization
+void Start()
+{
+        Destroy(gameObject, deleteTime);
+}
+
+    // Update is called once per frame
+void Update()
+{
+
     }
 }
+
