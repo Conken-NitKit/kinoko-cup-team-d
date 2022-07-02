@@ -718,8 +718,8 @@ MonoBehaviour:
       m_Calls: []
   m_text: CUTMMER
   m_isRightToLeft: 0
-  m_fontAsset: {fileID: 11400000, guid: f56cf5b16dc985647aeb244e4c22931e, type: 2}
-  m_sharedMaterial: {fileID: 351040652872542829, guid: f56cf5b16dc985647aeb244e4c22931e, type: 2}
+  m_fontAsset: {fileID: 11400000, guid: b027fe9f449c1614b8f89a1c639b60b9, type: 2}
+  m_sharedMaterial: {fileID: -1471372274379688608, guid: b027fe9f449c1614b8f89a1c639b60b9, type: 2}
   m_fontSharedMaterials: []
   m_fontMaterial: {fileID: 0}
   m_fontMaterials: []
