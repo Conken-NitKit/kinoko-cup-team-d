@@ -1,47 +1,58 @@
-using System.Collections;
-using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Events;
 
-public class ObjectDestroy : MonoBehaviour
+public class ObjectDestroy: MonoBehaviour
 {
-    public GameObject effectPrefab;
-    public AudioClip sound;
-
-    void Update()
-    {
-        //Aキーが押された時
-        if (Input.GetKeyDown(KeyCode.A)){
-            Destroy(gameObject);
-            GameObject effect = Instantiate(effectPrefab, transform.position, Quaternion.identity);
-            Destroy(effect, 0.5f);
-            AudioSource.PlayClipAtPoint(sound, transform.position);
+    [Serializable]
+    /// <summary>
+    /// Function definition for a key pressed event
+    /// </sumarry>
+    public class keyEvent: UnityEvent{
+        public KeyCode key = KeyCode.Return;
+ 
+        public keyEvent(){}
+ 
+        public keyEvent(KeyCode _keycode) {
+            key = _keycode;
         }
+    }
+ 
+    [SerializeField]
+    private keyEvent keyA = new keyEvent(KeyCode.A);
+ 
+    [SerializeField]
+    private keyEvent keyW = new keyEvent(KeyCode.W);
+ 
+    [SerializeField]
+    private keyEvent keyS = new keyEvent(KeyCode.S);
 
-        //Bキーが押された時
-        if (Input.GetKeyDown(KeyCode.B)){
-            Destroy(gameObject);
-            GameObject effect = Instantiate(effectPrefab, transform.position, Quaternion.identity);
-            Destroy(effect, 0.5f);
-            AudioSource.PlayClipAtPoint(sound, transform.position);
+    [SerializeField]
+    private keyEvent keyD = new keyEvent(KeyCode.D);
+
+    [SerializeField]
+    private keyEvent keyQ = new keyEvent(KeyCode.Q);
+
+    [SerializeField]
+    private keyEvent keyZ = new keyEvent(KeyCode.Z);
+ 
+    void Update(){
+        if(Input.GetKeyUp(keyA.key)){
+            keyA.Invoke();
         }
-        
-
-        //Cキーが押された時
-        if (Input.GetKeyDown(KeyCode.C)){
-            Destroy(gameObject);
-            GameObject effect = Instantiate(effectPrefab, transform.position, Quaternion.identity);
-            Destroy(effect, 0.5f);
-            AudioSource.PlayClipAtPoint(sound, transform.position);
+        if(Input.GetKeyUp(keyW.key)){
+            keyW.Invoke();
         }
-        
-
-        //Dキーが押された時
-        if (Input.GetKeyDown(KeyCode.D)){
-         Destroy(gameObject);
-            GameObject effect = Instantiate(effectPrefab, transform.position, Quaternion.identity);
-            Destroy(effect, 0.5f);
-            AudioSource.PlayClipAtPoint(sound, transform.position);
-        }   
-        
+        if(Input.GetKeyUp(keyS.key)){
+            keyS.Invoke();
+        }
+        if(Input.GetKeyUp(keyD.key)){
+            keyD.Invoke();
+        }
+        if(Input.GetKeyUp(keyQ.key)){
+            keyQ.Invoke();
+        }
+        if(Input.GetKeyUp(keyZ.key)){
+            keyZ.Invoke();
+        }
     }
 }
